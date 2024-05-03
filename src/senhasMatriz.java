@@ -1,6 +1,10 @@
 import java.security.SecureRandom;
 import java.util.Arrays;
 
+public class senhasMatriz { public static void main(String[] args) {
+
+
+
 /**
  * 1- No nosso dia a dia, o uso de senhas
  * é algo comum, pois usamos muitos
@@ -17,8 +21,7 @@ import java.util.Arrays;
  * ponto de interrogação, arroba).
  */
 
-public class conceitoVetores{
-  public static void main(String[] args) {
+
     // Cria o vetor de senhas
     String[] senhas = new String[5];
 
@@ -68,3 +71,7 @@ public class conceitoVetores{
     System.out.println("Senhas: " + Arrays.toString(senhas));
   }
 }
+    
+
+    
+
